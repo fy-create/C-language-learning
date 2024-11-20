@@ -100,7 +100,7 @@ void EXTI15_10_IRQHandler(void)
         }
 
         EXTI_ClearITPendingBit(EXTI_Line10); /*清除中断标志*/
-    }
+    }//
 }
 
 void LED_Blink(void)
